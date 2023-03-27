@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  background-color: #4a90e2;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#clickButton,
+#confirmButton {
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s;
+}
+
+#confirmButton {
+  margin-left: 1rem;
+}
+
+#clickButton:hover,
+#confirmButton:hover {
+  background-color: #3b7ccd;
+}
+
+#clickCount {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #999;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#ranking {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #333;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 0;
+}
+
+li {
+  text-align: left;
+  display: inline-block;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+#rankingTable {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 1rem;
+}
+
+#personalBest {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+
